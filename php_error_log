@@ -1,0 +1,39 @@
+[14-Jul-2022 08:29:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in D:\xampp\htdocs\pos\controladores\usuarios.controlador.php:120
+Stack trace:
+#0 D:\xampp\htdocs\pos\vistas\modulos\usuarios.php(275): ControladorUsuarios::ctrCrearUsuario()
+#1 D:\xampp\htdocs\pos\vistas\plantilla.php(143): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\pos\index.php(24): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in D:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 120
+[14-Jul-2022 08:29:20 Europe/Berlin] PHP Warning:  mkdir(): File exists in D:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 107
+[14-Jul-2022 08:29:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in D:\xampp\htdocs\pos\controladores\usuarios.controlador.php:120
+Stack trace:
+#0 D:\xampp\htdocs\pos\vistas\modulos\usuarios.php(275): ControladorUsuarios::ctrCrearUsuario()
+#1 D:\xampp\htdocs\pos\vistas\plantilla.php(143): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\pos\index.php(24): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in D:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 120
+[14-Jul-2022 08:35:49 Europe/Berlin] PHP Warning:  mkdir(): File exists in D:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 278
+[14-Jul-2022 08:35:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefrompng() in D:\xampp\htdocs\pos\controladores\usuarios.controlador.php:316
+Stack trace:
+#0 D:\xampp\htdocs\pos\vistas\modulos\usuarios.php(415): ControladorUsuarios::ctrEditarUsuario()
+#1 D:\xampp\htdocs\pos\vistas\plantilla.php(143): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\pos\index.php(24): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in D:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 316
+[14-Jul-2022 08:43:56 Europe/Berlin] PHP Warning:  mkdir(): File exists in D:\xampp\htdocs\pos\controladores\usuarios.controlador.php on line 107
+[14-Jul-2022 09:26:24 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\pos\controladores\ventas.controlador.php on line 35
+[14-Jul-2022 09:26:41 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\pos\controladores\ventas.controlador.php on line 451
+[14-Jul-2022 10:02:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in D:\xampp\htdocs\pos\modelos\ventas.modelo.php:134
+Stack trace:
+#0 D:\xampp\htdocs\pos\modelos\ventas.modelo.php(134): PDOStatement->execute()
+#1 D:\xampp\htdocs\pos\controladores\ventas.controlador.php(561): ModeloVentas::mdlRangoFechasVentas('ventas', '2022-07-14', '2022-07-14')
+#2 D:\xampp\htdocs\pos\vistas\modulos\ventas.php(111): ControladorVentas::ctrRangoFechasVentas('2022-07-14', '2022-07-14')
+#3 D:\xampp\htdocs\pos\vistas\plantilla.php(143): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\pos\index.php(24): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in D:\xampp\htdocs\pos\modelos\ventas.modelo.php on line 134
